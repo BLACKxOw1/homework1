@@ -1,0 +1,108 @@
+@import "tailwindcss";
+
+
+.container {
+  width: 100%;
+  max-width: 1110px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+
+.container {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+/* sm: 640px */
+@media (min-width: 640px) {
+  .container {
+    max-width: 640px;
+  }
+}
+
+/* md: 768px */
+@media (min-width: 768px) {
+  .container {
+    max-width: 768px;
+  }
+}
+
+/* lg: 1024px */
+@media (min-width: 1024px) {
+  .container {
+    max-width: 1024px;
+  }
+}
+
+/* xl: 1280px */
+@media (min-width: 1280px) {
+  .container {
+    max-width: 1110px; /* siz so‘ragan container */
+  }
+}
+
+/* 2xl: 1536px */
+@media (min-width: 1536px) {
+  .container {
+    max-width: 1110px;
+  }
+}
+
+/* .container2 {
+  width: 100%;
+  max-width: 1920px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+} */
+
+
+.container2 {
+  max-width: 1600px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* 
+@media (min-width: 640px) {
+  .container2 {
+    max-width: 640px;
+  }
+}
+
+@media (min-width: 768px) {
+  .container2 {
+    max-width: 768px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .container2 {
+    max-width: 1024px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .container2 {
+    max-width: 1280px;
+  }
+}
+
+@media (min-width: 1536px) {
+  .container2 {
+    max-width: 1536px;
+  }
+}
+
+@media (min-width: 1920px) {
+  .container2 {
+    max-width: 1920px;
+  }
+} */
